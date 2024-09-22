@@ -1,6 +1,7 @@
 import { Profile } from "./components/Profile/Profile";
-import profile from "./data/profile.json";
-import React from "react";
+import { FriendList } from "./components/FriendList/FriendList";
+import profile from "./profile.json";
+import friends from "./friends.json";
 
 export const App = () => {
   return (
@@ -12,8 +13,8 @@ export const App = () => {
         image={profile.avatar}
         stats={profile.stats}
       />
-      {/* <FriendList />
-      <Transaction /> */}
+      <FriendList friends={friends} />
+      {/* <Transaction /> */}
     </>
   );
 };
