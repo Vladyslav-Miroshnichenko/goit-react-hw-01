@@ -1,11 +1,15 @@
-import styles from './Profile.module.css';
-import React from 'react';
+import styles from "./Profile.module.css";
 
 export const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
-        <img src={image} alt="User avatar" className={styles.avatar} />
+        <img
+          src={image}
+          alt="User avatar"
+          width={100}
+          className={styles.avatar}
+        />
         <p className={styles.name}>{name}</p>
         <p className={styles.tag}>{tag}</p>
         <p className={styles.location}>{location}</p>

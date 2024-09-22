@@ -1,6 +1,6 @@
-import { Profile, FriendList, Transaction } from 'components';
-import profile from './data/profile.json';
-import React from 'react';
+import { Profile } from "./components/Profile/Profile";
+import profile from "./data/profile.json";
+import React from "react";
 
 export const App = () => {
   return (
@@ -12,6 +12,10 @@ export const App = () => {
         image={profile.avatar}
         stats={profile.stats}
       />
+      {/* <FriendList />
+      <Transaction /> */}
     </>
   );
 };
+
+export default App;
