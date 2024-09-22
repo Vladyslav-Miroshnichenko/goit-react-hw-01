@@ -32,3 +32,5 @@ export const Profile = ({ name, tag, location, image, stats }) => {
     </div>
   );
 };
+
+export default Profile;

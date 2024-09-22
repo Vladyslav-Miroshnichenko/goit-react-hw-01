@@ -1,0 +1,31 @@
+.tablet {
+    width: 400px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 2px solid #333;
+    font-family: Arial, sans-serif;
+}
+
+.tablet th,
+.tablet td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tablet th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.tablet tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tablet tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tablet td {
+    color: #333;
+}
